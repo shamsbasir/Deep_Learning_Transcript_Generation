@@ -20,6 +20,7 @@ Data can be download at [data link] (https://www.kaggle.com/c/11-785-fall-20-hom
 
 
 ## MODEL ARCHITECTURE
+```
 ------------------------------------------------------------------------
 data---> ResNET block --> Bidirectional LSTM --> Linear --> output	  |
 ------------------------------------------------------------------------
@@ -40,15 +41,17 @@ SpeechToPhoneme(
   (dropout): Dropout(p=0.2, inplace=False)
   (output): Linear(in_features=512, out_features=42, bias=True)
 )
-
+```
 
 ## DIRECTORY STRUCTURE
+``
 |   README.txt
 |   submission.csv
 |   hw3_p2.ipynb 
-
+``
 
 ## HYPER-PARAMATERS 
+
 * batch_size : 64 for training
 * batch_size : 32 for testing and validation 
 * num_workers: 4
