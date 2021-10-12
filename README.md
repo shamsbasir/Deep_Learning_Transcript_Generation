@@ -45,9 +45,8 @@ SpeechToPhoneme(
 
 ## DIRECTORY STRUCTURE
 ``
-|   README.txt
-|   submission.csv
-|   hw3_p2.ipynb 
+|   README.md
+|   main.ipynb 
 ``
 
 ## HYPER-PARAMATERS 
